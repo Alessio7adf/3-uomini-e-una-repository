@@ -9,7 +9,7 @@ for i in range(NUMELE):
 
 massimo = max(vettore)
 
-for i in range(massimo):
+for i in range(massimo + 1):
 	if vettore.__contains__(i):
 		vettore2.append(i)
 print(vettore)
